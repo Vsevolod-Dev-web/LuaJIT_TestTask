@@ -1,5 +1,4 @@
-# LuaJIT Test task by Vsevolod Polyakov
-# Исправление ошибки сборки
+# LuaJIT fix-task by Vsevolod Polyakov
 
 ## Задача: Исправвить ошибки, написать патч.
 
