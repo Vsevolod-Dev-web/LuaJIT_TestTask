@@ -24,6 +24,15 @@
 Получаем сообщение: LuaJIT 2.1.0-beta3 -- Copyright (C) 2005-2017 Mike Pall. http://luajit.org/
 что значит, что все работает. 
 
-### Создание патча.
+### Создание патча
 
+Находясь в корне проекта `~/LuaJIT_TestTask` 
+
+Создаем патч, сравнивая исправленную версию с оригиналом
+```bash
+diff -u original_sources/LuaJIT-2.1.0-beta3/src/lj_tab.c \
+        patched_sources/LuaJIT-2.1.0-beta3/src/lj_tab.c > patches/lj_tab_fix.patch
+```
+
+Патч готов.
 

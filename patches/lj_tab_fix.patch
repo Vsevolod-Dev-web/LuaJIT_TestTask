@@ -1,0 +1,10 @@
+--- original_sources/LuaJIT-2.1.0-beta3/src/lj_tab.c	2017-05-01 22:05:00.000000000 +0300
++++ patched_sources/LuaJIT-2.1.0-beta3/src/lj_tab.c	2026-01-21 16:03:03.290223740 +0300
+@@ -13,6 +13,7 @@
+ #include "lj_gc.h"
+ #include "lj_err.h"
+ #include "lj_tab.h"
++#include <limits.h>
+ 
+ /* -- Object hashing ------------------------------------------------------ */
+ 
